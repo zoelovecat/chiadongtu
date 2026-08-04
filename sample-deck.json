@@ -1,0 +1,266 @@
+{
+  "title": "Bài luyện tập mẫu — Động từ hàng ngày",
+  "groups": [
+    {
+      "id": 1,
+      "name": "Nhóm 1 - Godan (五段)",
+      "verbs": [
+        {
+          "kanji": "書く",
+          "reading": "かく",
+          "meaning": "viết",
+          "answers": {
+            "masu": "かきます",
+            "nai": "かかない",
+            "te": "かいて",
+            "ta": "かいた",
+            "dictionary": "かく",
+            "volitional": "かこう",
+            "potential": "かける",
+            "passive": "かかれる",
+            "causative": "かかせる",
+            "causative_passive": "かかせられる",
+            "imperative": "かけ",
+            "conditional_ba": "かけば",
+            "conditional_tara": "かいたら",
+            "hypothetical_nara": "かくなら",
+            "prohibitive_na": "かくな",
+            "masen": "かきません",
+            "mashita": "かきました",
+            "nakatta": "かかなかった",
+            "masen_deshita": "かきませんでした",
+            "teiru": "かいている"
+          }
+        },
+        {
+          "kanji": "読む",
+          "reading": "よむ",
+          "meaning": "đọc",
+          "answers": {
+            "masu": "よみます",
+            "nai": "よまない",
+            "te": "よんで",
+            "ta": "よんだ",
+            "dictionary": "よむ",
+            "volitional": "よもう",
+            "potential": "よめる",
+            "passive": "よまれる",
+            "causative": "よませる",
+            "causative_passive": "よませられる",
+            "imperative": "よめ",
+            "conditional_ba": "よめば",
+            "conditional_tara": "よんだら",
+            "hypothetical_nara": "よむなら",
+            "prohibitive_na": "よむな",
+            "masen": "よみません",
+            "mashita": "よみました",
+            "nakatta": "よまなかった",
+            "masen_deshita": "よみませんでした",
+            "teiru": "よんでいる"
+          }
+        },
+        {
+          "kanji": "話す",
+          "reading": "はなす",
+          "meaning": "nói chuyện",
+          "answers": {
+            "masu": "はなします",
+            "nai": "はなさない",
+            "te": "はなして",
+            "ta": "はなした",
+            "dictionary": "はなす",
+            "volitional": "はなそう",
+            "potential": "はなせる",
+            "passive": "はなされる",
+            "causative": "はなさせる",
+            "causative_passive": "はなさせられる",
+            "imperative": "はなせ",
+            "conditional_ba": "はなせば",
+            "conditional_tara": "はなしたら",
+            "hypothetical_nara": "はなすなら",
+            "prohibitive_na": "はなすな",
+            "masen": "はなしません",
+            "mashita": "はなしました",
+            "nakatta": "はなさなかった",
+            "masen_deshita": "はなしませんでした",
+            "teiru": "はなしている"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Nhóm 2 - Ichidan (一段)",
+      "verbs": [
+        {
+          "kanji": "食べる",
+          "reading": "たべる",
+          "meaning": "ăn",
+          "answers": {
+            "masu": "たべます",
+            "nai": "たべない",
+            "te": "たべて",
+            "ta": "たべた",
+            "dictionary": "たべる",
+            "volitional": "たべよう",
+            "potential": "たべられる",
+            "passive": "たべられる",
+            "causative": "たべさせる",
+            "causative_passive": "たべさせられる",
+            "imperative": "たべろ",
+            "conditional_ba": "たべれば",
+            "conditional_tara": "たべたら",
+            "hypothetical_nara": "たべるなら",
+            "prohibitive_na": "たべるな",
+            "masen": "たべません",
+            "mashita": "たべました",
+            "nakatta": "たべなかった",
+            "masen_deshita": "たべませんでした",
+            "teiru": "たべている"
+          }
+        },
+        {
+          "kanji": "見る",
+          "reading": "みる",
+          "meaning": "xem, nhìn",
+          "answers": {
+            "masu": "みます",
+            "nai": "みない",
+            "te": "みて",
+            "ta": "みた",
+            "dictionary": "みる",
+            "volitional": "みよう",
+            "potential": "みられる",
+            "passive": "みられる",
+            "causative": "みせる",
+            "causative_passive": "みせられる",
+            "imperative": "みろ",
+            "conditional_ba": "みれば",
+            "conditional_tara": "みたら",
+            "hypothetical_nara": "みるなら",
+            "prohibitive_na": "みるな",
+            "masen": "みません",
+            "mashita": "みました",
+            "nakatta": "みなかった",
+            "masen_deshita": "みませんでした",
+            "teiru": "みている"
+          }
+        },
+        {
+          "kanji": "起きる",
+          "reading": "おきる",
+          "meaning": "thức dậy",
+          "answers": {
+            "masu": "おきます",
+            "nai": "おきない",
+            "te": "おきて",
+            "ta": "おきた",
+            "dictionary": "おきる",
+            "volitional": "おきよう",
+            "potential": "おきられる",
+            "passive": "おきられる",
+            "causative": "おこす",
+            "causative_passive": "おこされる",
+            "imperative": "おきろ",
+            "conditional_ba": "おきれば",
+            "conditional_tara": "おきたら",
+            "hypothetical_nara": "おきるなら",
+            "prohibitive_na": "おきるな",
+            "masen": "おきません",
+            "mashita": "おきました",
+            "nakatta": "おきなかった",
+            "masen_deshita": "おきませんでした",
+            "teiru": "おきている"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Nhóm 3 - Bất quy tắc",
+      "verbs": [
+        {
+          "kanji": "する",
+          "reading": "する",
+          "meaning": "làm",
+          "answers": {
+            "masu": "します",
+            "nai": "しない",
+            "te": "して",
+            "ta": "した",
+            "dictionary": "する",
+            "volitional": "しよう",
+            "potential": "できる",
+            "passive": "される",
+            "causative": "させる",
+            "causative_passive": "させられる",
+            "imperative": "しろ",
+            "conditional_ba": "すれば",
+            "conditional_tara": "したら",
+            "hypothetical_nara": "するなら",
+            "prohibitive_na": "するな",
+            "masen": "しません",
+            "mashita": "しました",
+            "nakatta": "しなかった",
+            "masen_deshita": "しませんでした",
+            "teiru": "している"
+          }
+        },
+        {
+          "kanji": "来る",
+          "reading": "くる",
+          "meaning": "đến",
+          "answers": {
+            "masu": "きます",
+            "nai": "こない",
+            "te": "きて",
+            "ta": "きた",
+            "dictionary": "くる",
+            "volitional": "こよう",
+            "potential": "こられる",
+            "passive": "こられる",
+            "causative": "こさせる",
+            "causative_passive": "こさせられる",
+            "imperative": "こい",
+            "conditional_ba": "くれば",
+            "conditional_tara": "きたら",
+            "hypothetical_nara": "くるなら",
+            "prohibitive_na": "くるな",
+            "masen": "きません",
+            "mashita": "きました",
+            "nakatta": "こなかった",
+            "masen_deshita": "きませんでした",
+            "teiru": "きている"
+          }
+        },
+        {
+          "kanji": "行く",
+          "reading": "いく",
+          "meaning": "đi",
+          "answers": {
+            "masu": "いきます",
+            "nai": "いかない",
+            "te": "いって",
+            "ta": "いった",
+            "dictionary": "いく",
+            "volitional": "いこう",
+            "potential": "いける",
+            "passive": "いかれる",
+            "causative": "いかせる",
+            "causative_passive": "いかせられる",
+            "imperative": "いけ",
+            "conditional_ba": "いけば",
+            "conditional_tara": "いったら",
+            "hypothetical_nara": "いくなら",
+            "prohibitive_na": "いくな",
+            "masen": "いきません",
+            "mashita": "いきました",
+            "nakatta": "いかなかった",
+            "masen_deshita": "いきませんでした",
+            "teiru": "いっている"
+          }
+        }
+      ]
+    }
+  ]
+}
