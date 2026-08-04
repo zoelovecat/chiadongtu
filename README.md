@@ -9,9 +9,12 @@ npm install
 npm run dev
 ```
 
-## Deploy
+## Deploy (GitHub Pages)
 
-Tự động deploy lên GitHub Pages khi push lên nhánh `main`.
+1. Vào **Settings → Pages** của repo: https://github.com/zoelovecat/chiadongtu/settings/pages
+2. **Build and deployment → Source:** chọn **Deploy from a branch**
+3. **Branch:** `gh-pages` · folder **`/ (root)`** → **Save**
+4. Đợi 1–2 phút sau khi push `main` (Actions tự build & đẩy lên `gh-pages`)
 
 **Live:** https://zoelovecat.github.io/chiadongtu/
 
