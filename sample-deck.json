@@ -30,6 +30,28 @@
             "nakatta": "かかなかった",
             "masen_deshita": "かきませんでした",
             "teiru": "かいている"
+          },
+          "examples": {
+            "masu": "毎日手紙を書きます。",
+            "nai": "今日は手紙を書かない。",
+            "te": "手紙を書いてください。",
+            "ta": "昨日手紙を書いた。",
+            "dictionary": "手紙を書く。",
+            "volitional": "手紙を書こう。",
+            "potential": "手紙が書ける。",
+            "passive": "手紙が書かれる。",
+            "causative": "子供に手紙を書かせる。",
+            "causative_passive": "手紙を書かせられる。",
+            "imperative": "手紙を書け！",
+            "conditional_ba": "手紙を書けば、上手になる。",
+            "conditional_tara": "手紙を書いたら、寝よう。",
+            "hypothetical_nara": "手紙を書くなら、今やろう。",
+            "prohibitive_na": "手紙を書くな。",
+            "masen": "手紙を書きません。",
+            "mashita": "手紙を書きました。",
+            "nakatta": "手紙を書かなかった。",
+            "masen_deshita": "手紙を書きませんでした。",
+            "teiru": "手紙を書いている。"
           }
         },
         {
@@ -57,6 +79,28 @@
             "nakatta": "よまなかった",
             "masen_deshita": "よみませんでした",
             "teiru": "よんでいる"
+          },
+          "examples": {
+            "masu": "毎日本を読きます。",
+            "nai": "今日は本を読かない。",
+            "te": "本を読いてください。",
+            "ta": "昨日本を読いた。",
+            "dictionary": "本を読く。",
+            "volitional": "本を読こう。",
+            "potential": "本が読ける。",
+            "passive": "本が読かれる。",
+            "causative": "子供に本を読かせる。",
+            "causative_passive": "本を読かせられる。",
+            "imperative": "本を読け！",
+            "conditional_ba": "本を読けば、上手になる。",
+            "conditional_tara": "本を読いたら、寝よう。",
+            "hypothetical_nara": "本を読くなら、今やろう。",
+            "prohibitive_na": "本を読くな。",
+            "masen": "本を読きません。",
+            "mashita": "本を読きました。",
+            "nakatta": "本を読かなかった。",
+            "masen_deshita": "本を読きませんでした。",
+            "teiru": "本を読いている。"
           }
         },
         {
@@ -84,6 +128,28 @@
             "nakatta": "はなさなかった",
             "masen_deshita": "はなしませんでした",
             "teiru": "はなしている"
+          },
+          "examples": {
+            "masu": "毎日日本語を話きます。",
+            "nai": "今日は日本語を話かない。",
+            "te": "日本語を話いてください。",
+            "ta": "昨日日本語を話いた。",
+            "dictionary": "日本語を話く。",
+            "volitional": "日本語を話こう。",
+            "potential": "日本語が話ける。",
+            "passive": "日本語が話かれる。",
+            "causative": "子供に日本語を話かせる。",
+            "causative_passive": "日本語を話かせられる。",
+            "imperative": "日本語を話け！",
+            "conditional_ba": "日本語を話けば、上手になる。",
+            "conditional_tara": "日本語を話いたら、寝よう。",
+            "hypothetical_nara": "日本語を話くなら、今やろう。",
+            "prohibitive_na": "日本語を話くな。",
+            "masen": "日本語を話きません。",
+            "mashita": "日本語を話きました。",
+            "nakatta": "日本語を話かなかった。",
+            "masen_deshita": "日本語を話きませんでした。",
+            "teiru": "日本語を話いている。"
           }
         }
       ]
@@ -117,6 +183,28 @@
             "nakatta": "たべなかった",
             "masen_deshita": "たべませんでした",
             "teiru": "たべている"
+          },
+          "examples": {
+            "masu": "毎日ご飯を食べきます。",
+            "nai": "今日はご飯を食べかない。",
+            "te": "ご飯を食べいてください。",
+            "ta": "昨日ご飯を食べいた。",
+            "dictionary": "ご飯を食べく。",
+            "volitional": "ご飯を食べこう。",
+            "potential": "ご飯が食べける。",
+            "passive": "ご飯が食べかれる。",
+            "causative": "子供にご飯を食べかせる。",
+            "causative_passive": "ご飯を食べかせられる。",
+            "imperative": "ご飯を食べけ！",
+            "conditional_ba": "ご飯を食べけば、上手になる。",
+            "conditional_tara": "ご飯を食べいたら、寝よう。",
+            "hypothetical_nara": "ご飯を食べくなら、今やろう。",
+            "prohibitive_na": "ご飯を食べくな。",
+            "masen": "ご飯を食べきません。",
+            "mashita": "ご飯を食べきました。",
+            "nakatta": "ご飯を食べかなかった。",
+            "masen_deshita": "ご飯を食べきませんでした。",
+            "teiru": "ご飯を食べいている。"
           }
         },
         {
@@ -144,6 +232,28 @@
             "nakatta": "みなかった",
             "masen_deshita": "みませんでした",
             "teiru": "みている"
+          },
+          "examples": {
+            "masu": "毎日映画を見きます。",
+            "nai": "今日は映画を見かない。",
+            "te": "映画を見いてください。",
+            "ta": "昨日映画を見いた。",
+            "dictionary": "映画を見く。",
+            "volitional": "映画を見こう。",
+            "potential": "映画が見ける。",
+            "passive": "映画が見かれる。",
+            "causative": "子供に映画を見かせる。",
+            "causative_passive": "映画を見かせられる。",
+            "imperative": "映画を見け！",
+            "conditional_ba": "映画を見けば、上手になる。",
+            "conditional_tara": "映画を見いたら、寝よう。",
+            "hypothetical_nara": "映画を見くなら、今やろう。",
+            "prohibitive_na": "映画を見くな。",
+            "masen": "映画を見きません。",
+            "mashita": "映画を見きました。",
+            "nakatta": "映画を見かなかった。",
+            "masen_deshita": "映画を見きませんでした。",
+            "teiru": "映画を見いている。"
           }
         },
         {
@@ -171,6 +281,28 @@
             "nakatta": "おきなかった",
             "masen_deshita": "おきませんでした",
             "teiru": "おきている"
+          },
+          "examples": {
+            "masu": "毎朝六時に起きます。",
+            "nai": "今日は早く起きない。",
+            "te": "早く起きてください。",
+            "ta": "今日は早く起きた。",
+            "dictionary": "早く起きる。",
+            "volitional": "早く起きよう。",
+            "potential": "六時に起きられる。",
+            "passive": "早く起きられる。",
+            "causative": "子供を早く起こす。",
+            "causative_passive": "早く起こされる。",
+            "imperative": "早く起きろ！",
+            "conditional_ba": "早く起きれば、間に合う。",
+            "conditional_tara": "起きたら、顔を洗おう。",
+            "hypothetical_nara": "早く起きるなら、今寝よう。",
+            "prohibitive_na": "遅く起きるな。",
+            "masen": "今日は早く起きません。",
+            "mashita": "今日は早く起きました。",
+            "nakatta": "今日は早く起きなかった。",
+            "masen_deshita": "昨日早く起きませんでした。",
+            "teiru": "今起きている。"
           }
         }
       ]
@@ -204,6 +336,28 @@
             "nakatta": "しなかった",
             "masen_deshita": "しませんでした",
             "teiru": "している"
+          },
+          "examples": {
+            "masu": "毎日宿題をします。",
+            "nai": "今日は宿題をしない。",
+            "te": "宿題をしてから遊ぼう。",
+            "ta": "昨日宿題をした。",
+            "dictionary": "宿題をする。",
+            "volitional": "宿題をしよう。",
+            "potential": "一人で宿題ができる。",
+            "passive": "宿題をされる。",
+            "causative": "子供に宿題をさせる。",
+            "causative_passive": "宿題をさせられる。",
+            "imperative": "宿題をしろ！",
+            "conditional_ba": "宿題をすれば、遊べる。",
+            "conditional_tara": "宿題をしたら、遊ぼう。",
+            "hypothetical_nara": "宿題をするなら、今やろう。",
+            "prohibitive_na": "宿題をするな。",
+            "masen": "今日は宿題をしません。",
+            "mashita": "昨日宿題をしました。",
+            "nakatta": "昨日宿題をしなかった。",
+            "masen_deshita": "昨日宿題をしませんでした。",
+            "teiru": "宿題をしている。"
           }
         },
         {
@@ -231,6 +385,28 @@
             "nakatta": "こなかった",
             "masen_deshita": "きませんでした",
             "teiru": "きている"
+          },
+          "examples": {
+            "masu": "毎日会社に来ます。",
+            "nai": "今日は来ない。",
+            "te": "ここに来てください。",
+            "ta": "昨日会社に来た。",
+            "dictionary": "会社に来る。",
+            "volitional": "一緒に来よう。",
+            "potential": "一人で来られる。",
+            "passive": "会社に来られる。",
+            "causative": "子供を会社に来させる。",
+            "causative_passive": "会社に来させられる。",
+            "imperative": "早く来い！",
+            "conditional_ba": "来れば、話そう。",
+            "conditional_tara": "来たら、連絡して。",
+            "hypothetical_nara": "来るなら、教えて。",
+            "prohibitive_na": "ここに来るな。",
+            "masen": "今日は来ません。",
+            "mashita": "昨日会社に来ました。",
+            "nakatta": "昨日来なかった。",
+            "masen_deshita": "昨日来ませんでした。",
+            "teiru": "今来ている。"
           }
         },
         {
@@ -258,6 +434,28 @@
             "nakatta": "いかなかった",
             "masen_deshita": "いきませんでした",
             "teiru": "いっている"
+          },
+          "examples": {
+            "masu": "毎日学校に行きます。",
+            "nai": "今日は行かない。",
+            "te": "一緒に行ってください。",
+            "ta": "昨日学校に行った。",
+            "dictionary": "学校に行く。",
+            "volitional": "一緒に行こう。",
+            "potential": "一人で行ける。",
+            "passive": "学校に行かれる。",
+            "causative": "子供を学校に行かせる。",
+            "causative_passive": "学校に行かせられる。",
+            "imperative": "早く行け！",
+            "conditional_ba": "行けば、分かる。",
+            "conditional_tara": "行ったら、写真を撮ろう。",
+            "hypothetical_nara": "行くなら、一緒に行こう。",
+            "prohibitive_na": "一人で行くな。",
+            "masen": "今日は行きません。",
+            "mashita": "昨日学校に行きました。",
+            "nakatta": "昨日行かなかった。",
+            "masen_deshita": "昨日行きませんでした。",
+            "teiru": "今学校に行っている。"
           }
         }
       ]
