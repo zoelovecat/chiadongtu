@@ -91,6 +91,11 @@ export function ExercisePage({
               {reviewed && !(userAnswers[key] ?? '').trim() && (
                 <span className="form-empty-note">(để trống)</span>
               )}
+              {reviewed && verb.examples[key] && (
+                <span className="form-example">
+                  Ví dụ: {verb.examples[key]}
+                </span>
+              )}
               {isWrong && (
                 <span className="form-feedback">
                   Sai — đáp án: <strong>{result.correctAnswer}</strong>

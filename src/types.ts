@@ -24,11 +24,16 @@ export interface VerbAnswers {
   [key: string]: string
 }
 
+export interface VerbExamples {
+  [key: string]: string
+}
+
 export interface Verb {
   kanji: string
   reading: string
   meaning: string
   answers: VerbAnswers
+  examples: VerbExamples
 }
 
 export interface VerbGroup {
@@ -50,6 +55,7 @@ export interface FlatVerb {
   reading: string
   meaning: string
   answers: VerbAnswers
+  examples: VerbExamples
 }
 
 export interface FieldResult {

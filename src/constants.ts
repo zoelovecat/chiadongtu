@@ -34,6 +34,11 @@ QUAN TRỌNG — quy tắc hiragana:
 - Tất cả giá trị trong "answers": CHỈ dùng hiragana, KHÔNG dùng kanji hay katakana.
 - Ví dụ: "masu": "かきます" (đúng), KHÔNG phải "書きます" (sai).
 
+QUAN TRỌNG — câu ví dụ ("examples"):
+- Mỗi thể cần 1 câu ví dụ ngắn, tự nhiên, dùng đúng thể đó (có thể dùng kanji).
+- Câu liên quan cuộc sống / công việc, dễ hiểu.
+- Cùng 20 key như "answers".
+
 Trả về DUY NHẤT một file JSON hợp lệ (không markdown, không giải thích thêm) theo schema sau:
 
 {
@@ -68,6 +73,28 @@ Trả về DUY NHẤT một file JSON hợp lệ (không markdown, không giải
             "nakatta": "かかなかった",
             "masen_deshita": "かきませんでした",
             "teiru": "かいている"
+          },
+          "examples": {
+            "masu": "毎日手紙を書きます。",
+            "nai": "今日は手紙を書かない。",
+            "te": "手紙を書いてください。",
+            "ta": "昨日手紙を書いた。",
+            "dictionary": "手紙を書く。",
+            "volitional": "手紙を書こう。",
+            "potential": "漢字が書ける。",
+            "passive": "手紙が書かれる。",
+            "causative": "子供に手紙を書かせる。",
+            "causative_passive": "手紙を書かせられる。",
+            "imperative": "早く書け。",
+            "conditional_ba": "手紙を書けば、届く。",
+            "conditional_tara": "手紙を書いたら、送ろう。",
+            "hypothetical_nara": "手紙を書くなら、今書こう。",
+            "prohibitive_na": "ここに書くな。",
+            "masen": "今日は手紙を書きません。",
+            "mashita": "昨日手紙を書きました。",
+            "nakatta": "昨日手紙を書かなかった。",
+            "masen_deshita": "昨日手紙を書きませんでした。",
+            "teiru": "手紙を書いている。"
           }
         }
       ]
@@ -85,14 +112,15 @@ Trả về DUY NHẤT một file JSON hợp lệ (không markdown, không giải
   ]
 }
 
-Mỗi động từ PHẢI có đủ 20 key trong "answers": masu, nai, te, ta, dictionary, volitional, potential, passive, causative, causative_passive, imperative, conditional_ba, conditional_tara, hypothetical_nara, prohibitive_na, masen, mashita, nakatta, masen_deshita, teiru.
+Mỗi động từ PHẢI có đủ 20 key trong "answers" và "examples": masu, nai, te, ta, dictionary, volitional, potential, passive, causative, causative_passive, imperative, conditional_ba, conditional_tara, hypothetical_nara, prohibitive_na, masen, mashita, nakatta, masen_deshita, teiru.
 
 Mỗi nhóm có ít nhất 3-4 động từ. Tổng cộng khoảng 10-12 động từ.`
 
 export const JSON_SCHEMA_HINT = `Hiển thị đề: kanji + reading (hiragana) + meaning (tiếng Việt).
 Đáp án trong answers: chỉ hiragana.
+Câu ví dụ trong examples: câu tiếng Nhật ngắn (có thể kanji), hiện sau khi kiểm tra.
 
-Các key bắt buộc trong answers:
+Các key bắt buộc trong answers và examples:
 masu, nai, te, ta, dictionary, volitional, potential, passive, causative,
 causative_passive, imperative, conditional_ba, conditional_tara,
 hypothetical_nara, prohibitive_na, masen, mashita, nakatta,

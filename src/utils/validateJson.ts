@@ -15,6 +15,7 @@ export function flattenDeck(deck: Deck): FlatVerb[] {
         reading: verb.reading,
         meaning: verb.meaning,
         answers: verb.answers,
+        examples: verb.examples,
       })
       index += 1
     }
@@ -54,6 +55,20 @@ function validateVerb(
     if (typeof value !== 'string' || !value.trim()) {
       errors.push(
         `${groupLabel}, "${verb.kanji ?? '?'}": thiếu đáp án cho "${key}"`,
+      )
+    }
+  }
+
+  if (!isObject(verb.examples)) {
+    errors.push(`${groupLabel}, động từ #${verbIndex + 1}: thiếu "examples"`)
+    return errors
+  }
+
+  for (const key of FORM_KEYS) {
+    const value = verb.examples[key]
+    if (typeof value !== 'string' || !value.trim()) {
+      errors.push(
+        `${groupLabel}, "${verb.kanji ?? '?'}": thiếu câu ví dụ cho "${key}"`,
       )
     }
   }
