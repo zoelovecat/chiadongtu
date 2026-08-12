@@ -629,11 +629,13 @@ code {
   font-size: 0.875rem;
 }
 
-.particle-tab {
+.particle-tab,
+.module-tab {
   width: 100%;
 }
 
-.particle-subnav {
+.particle-subnav,
+.module-subnav {
   display: flex;
   gap: 0.5rem;
   margin-bottom: 1.25rem;
@@ -641,7 +643,8 @@ code {
   border-bottom: 1px solid #e8e0d8;
 }
 
-.particle-subnav-link {
+.particle-subnav-link,
+.module-subnav-link {
   background: #fff;
   border: 1px solid #ddd;
   color: #555;
@@ -651,12 +654,14 @@ code {
   font-size: 0.875rem;
 }
 
-.particle-subnav-link:hover {
+.particle-subnav-link:hover,
+.module-subnav-link:hover {
   border-color: #c84b31;
   color: #c84b31;
 }
 
-.particle-subnav-link.active {
+.particle-subnav-link.active,
+.module-subnav-link.active {
   background: #c84b31;
   border-color: #c84b31;
   color: #fff;

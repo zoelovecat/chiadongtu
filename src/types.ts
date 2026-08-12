@@ -82,4 +82,4 @@ export interface SessionState {
   uploadedAt: string
 }
 
-export type AppView = 'prompt' | 'upload' | 'exercise' | 'results' | 'particles'
+export type AppView = 'verbs' | 'particles'

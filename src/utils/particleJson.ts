@@ -185,13 +185,13 @@ export function shuffledOrder(count: number): number[] {
 
 export function getOrderedSentences(
   deck: ParticleDeck,
-  sentenceOrder: number[],
+  sentenceOrder?: number[],
 ): FlatParticleSentence[] {
   const flat = flattenParticleDeck(deck)
-  if (sentenceOrder.length === flat.length) {
-    return sentenceOrder.map((i) => flat[i])
+  if (!sentenceOrder || sentenceOrder.length !== flat.length) {
+    return flat
   }
-  return flat
+  return sentenceOrder.map((i) => flat[i])
 }
 
 export function particleDeckFingerprint(deck: ParticleDeck): string {

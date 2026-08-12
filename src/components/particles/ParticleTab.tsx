@@ -152,18 +152,18 @@ export function ParticleTab() {
     !savedSession.completed
 
   return (
-    <div className="particle-tab">
-      <div className="particle-subnav">
+    <div className="module-tab">
+      <div className="module-subnav">
         <button
           type="button"
-          className={`particle-subnav-link ${view === 'prompt' ? 'active' : ''}`}
+          className={`module-subnav-link ${view === 'prompt' ? 'active' : ''}`}
           onClick={() => setView('prompt')}
         >
           Prompt mẫu
         </button>
         <button
           type="button"
-          className={`particle-subnav-link ${view === 'upload' || view === 'exercise' || view === 'results' ? 'active' : ''}`}
+          className={`module-subnav-link ${view === 'upload' || view === 'exercise' || view === 'results' ? 'active' : ''}`}
           onClick={() => {
             if (view === 'exercise') {
               if (confirm('Thoát bài làm? Tiến độ đã được lưu tự động.')) {
