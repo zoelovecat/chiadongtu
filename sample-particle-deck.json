@@ -1,0 +1,100 @@
+{
+  "title": "Trợ từ mẫu — に vs で & は vs が",
+  "focus_pairs": ["に vs で", "は vs が"],
+  "groups": [
+    {
+      "pair": "に vs で",
+      "sentences": [
+        {
+          "meaning": "Tôi sống ở Tokyo",
+          "template": "東京___住んでいます。",
+          "blanks": [
+            {
+              "answer": "に",
+              "explanation": "に = nơi tồn tại/sống. Không dùng で."
+            }
+          ]
+        },
+        {
+          "meaning": "Đi công ty bằng xe bus",
+          "template": "バス___会社___行きます。",
+          "blanks": [
+            {
+              "answer": "で",
+              "explanation": "で = phương tiện (bằng xe bus)."
+            },
+            {
+              "answer": "に",
+              "explanation": "に = đích đến (đến công ty)."
+            }
+          ]
+        },
+        {
+          "meaning": "Học tiếng Nhật ở trường",
+          "template": "学校___日本語を勉強します。",
+          "blanks": [
+            {
+              "answer": "で",
+              "explanation": "で = nơi diễn ra hành động (học ở trường)."
+            }
+          ]
+        },
+        {
+          "meaning": "Có cuộc họp lúc 3 giờ",
+          "template": "三時___会議があります。",
+          "blanks": [
+            {
+              "answer": "に",
+              "explanation": "に = thời điểm cụ thể (lúc 3 giờ)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pair": "は vs が",
+      "sentences": [
+        {
+          "meaning": "Tôi là nhân viên (chủ đề câu)",
+          "template": "私___会社員です。",
+          "blanks": [
+            {
+              "answer": "は",
+              "explanation": "は = chủ đề đã biết (as for me). Dùng khi giới thiệu/ nói về bản thân."
+            }
+          ]
+        },
+        {
+          "meaning": "Trời đang mưa (hiện tượng tự nhiên)",
+          "template": "雨___降っています。",
+          "blanks": [
+            {
+              "answer": "が",
+              "explanation": "が = chủ ngữ khách quan (mưa rơi). Không dùng は vì không phải chủ đề đối thoại."
+            }
+          ]
+        },
+        {
+          "meaning": "Tanaka đến rồi (thông tin mới)",
+          "template": "田中さん___来ました。",
+          "blanks": [
+            {
+              "answer": "が",
+              "explanation": "が = thông tin mới (ai đó vừa đến). は sẽ nhấn mạnh chủ đề đã biết."
+            }
+          ]
+        },
+        {
+          "meaning": "Còn tôi thì thích cà phê (đối lập chủ đề)",
+          "template": "私___コーヒーが好きです。",
+          "blanks": [
+            {
+              "answer": "は",
+              "explanation": "は = đối lập chủ đề (còn tôi thì…). が ở sau là tân ngữ của 好き."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
