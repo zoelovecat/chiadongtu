@@ -1,6 +1,6 @@
 {
-  "title": "Trợ từ mẫu — に vs で & は vs が",
-  "focus_pairs": ["に vs で", "は vs が"],
+  "title": "Trợ từ mẫu — Luyện は・が・に・で",
+  "focus_pairs": ["は vs が", "に vs で"],
   "groups": [
     {
       "pair": "に vs で",
@@ -11,7 +11,7 @@
           "blanks": [
             {
               "answer": "に",
-              "explanation": "に = nơi tồn tại/sống. Không dùng で."
+              "explanation": "に = nơi tồn tại/sống. で = nơi diễn ra hành động."
             }
           ]
         },
@@ -55,42 +55,42 @@
       "pair": "は vs が",
       "sentences": [
         {
-          "meaning": "Tôi là nhân viên (chủ đề câu)",
+          "meaning": "Tôi là nhân viên",
           "template": "私___会社員です。",
           "blanks": [
             {
               "answer": "は",
-              "explanation": "は = chủ đề đã biết (as for me). Dùng khi giới thiệu/ nói về bản thân."
+              "explanation": "は = chủ đề câu. が dùng khi đưa thông tin mới."
             }
           ]
         },
         {
-          "meaning": "Trời đang mưa (hiện tượng tự nhiên)",
+          "meaning": "Trời đang mưa",
           "template": "雨___降っています。",
           "blanks": [
             {
               "answer": "が",
-              "explanation": "が = chủ ngữ khách quan (mưa rơi). Không dùng は vì không phải chủ đề đối thoại."
+              "explanation": "が = chủ ngữ khách quan (hiện tượng tự nhiên)."
             }
           ]
         },
         {
-          "meaning": "Tanaka đến rồi (thông tin mới)",
+          "meaning": "Tanaka đến rồi",
           "template": "田中さん___来ました。",
           "blanks": [
             {
               "answer": "が",
-              "explanation": "が = thông tin mới (ai đó vừa đến). は sẽ nhấn mạnh chủ đề đã biết."
+              "explanation": "が = thông tin mới (ai đó vừa đến)."
             }
           ]
         },
         {
-          "meaning": "Còn tôi thì thích cà phê (đối lập chủ đề)",
+          "meaning": "Còn tôi thì thích cà phê",
           "template": "私___コーヒーが好きです。",
           "blanks": [
             {
               "answer": "は",
-              "explanation": "は = đối lập chủ đề (còn tôi thì…). が ở sau là tân ngữ của 好き."
+              "explanation": "は = đối lập chủ đề (còn tôi thì…)."
             }
           ]
         }

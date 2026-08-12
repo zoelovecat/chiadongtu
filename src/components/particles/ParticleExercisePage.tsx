@@ -35,7 +35,6 @@ export function ParticleExercisePage({
     <div className="page exercise-page">
       <header className="exercise-header">
         <div>
-          <span className="badge">{sentence.pair}</span>
           <p className="progress-text">
             Câu {sentence.globalIndex + 1} / {total}
           </p>

@@ -45,6 +45,7 @@ export interface ParticleCheckResult {
 export interface ParticleSessionState {
   deck: ParticleDeck
   deckFingerprint: string
+  sentenceOrder: number[]
   currentIndex: number
   userAnswers: Record<number, string[]>
   checkResults: Record<number, ParticleCheckResult>

@@ -174,6 +174,26 @@ export function flattenParticleDeck(deck: ParticleDeck): FlatParticleSentence[] 
   return flat
 }
 
+export function shuffledOrder(count: number): number[] {
+  const order = Array.from({ length: count }, (_, i) => i)
+  for (let i = order.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[order[i], order[j]] = [order[j], order[i]]
+  }
+  return order
+}
+
+export function getOrderedSentences(
+  deck: ParticleDeck,
+  sentenceOrder: number[],
+): FlatParticleSentence[] {
+  const flat = flattenParticleDeck(deck)
+  if (sentenceOrder.length === flat.length) {
+    return sentenceOrder.map((i) => flat[i])
+  }
+  return flat
+}
+
 export function particleDeckFingerprint(deck: ParticleDeck): string {
   return `${deck.title}::${flattenParticleDeck(deck).length}`
 }

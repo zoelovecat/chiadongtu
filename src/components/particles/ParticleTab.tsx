@@ -7,8 +7,10 @@ import type {
 import {
   checkParticleSentence,
   flattenParticleDeck,
+  getOrderedSentences,
   parseParticleJson,
   particleDeckFingerprint,
+  shuffledOrder,
 } from '../../utils/particleJson'
 import {
   loadParticleSession,
@@ -33,7 +35,10 @@ export function ParticleTab() {
   const savedSession = loadParticleSession()
 
   const sentences = useMemo(
-    () => (session ? flattenParticleDeck(session.deck) : []),
+    () =>
+      session
+        ? getOrderedSentences(session.deck, session.sentenceOrder)
+        : [],
     [session],
   )
   const current = sentences[session?.currentIndex ?? 0]
@@ -74,14 +79,22 @@ export function ParticleTab() {
       resume &&
       savedSession?.deckFingerprint === particleDeckFingerprint(preview)
     ) {
-      setSession(savedSession)
+      const flat = flattenParticleDeck(preview)
+      setSession({
+        ...savedSession,
+        sentenceOrder:
+          savedSession.sentenceOrder ??
+          Array.from({ length: flat.length }, (_, i) => i),
+      })
       setReviewed(false)
       setView('exercise')
       return
     }
+    const flat = flattenParticleDeck(preview)
     setSession({
       deck: preview,
       deckFingerprint: particleDeckFingerprint(preview),
+      sentenceOrder: shuffledOrder(flat.length),
       currentIndex: 0,
       userAnswers: {},
       checkResults: {},
@@ -266,9 +279,7 @@ export function ParticleTab() {
           {preview && (
             <div className="preview-box">
               <h2>{preview.title}</h2>
-              <p>{preview.focus_pairs.join(' · ')}</p>
               <p className="muted">
-                {preview.groups.length} nhóm ·{' '}
                 {flattenParticleDeck(preview).length} câu
               </p>
               <div className="preview-actions">
@@ -322,6 +333,9 @@ export function ParticleTab() {
             setSession({
               ...session,
               currentIndex: 0,
+              sentenceOrder: shuffledOrder(
+                flattenParticleDeck(session.deck).length,
+              ),
               userAnswers: {},
               checkResults: {},
               completed: false,
