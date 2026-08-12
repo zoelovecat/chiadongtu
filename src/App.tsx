@@ -4,6 +4,7 @@ import { PromptPage } from './components/PromptPage'
 import { UploadPage } from './components/UploadPage'
 import { ExercisePage } from './components/ExercisePage'
 import { ResultsPage } from './components/ResultsPage'
+import { ParticleTab } from './components/particles/ParticleTab'
 import { flattenDeck } from './utils/validateJson'
 import { checkVerbAnswers } from './utils/checkAnswers'
 import { clearSession, loadSession, saveSession } from './utils/storage'
@@ -125,7 +126,22 @@ function App() {
             }
           }}
         >
-          Làm bài
+          Động từ
+        </button>
+        <button
+          type="button"
+          className={`nav-link ${view === 'particles' ? 'active' : ''}`}
+          onClick={() => {
+            if (view === 'exercise') {
+              if (confirm('Thoát bài làm? Tiến độ đã được lưu tự động.')) {
+                setView('particles')
+              }
+            } else {
+              setView('particles')
+            }
+          }}
+        >
+          Trợ từ
         </button>
         <span className="nav-title">Chia thể động từ</span>
       </nav>
@@ -161,6 +177,8 @@ function App() {
             onHome={handleHome}
           />
         )}
+
+        {view === 'particles' && <ParticleTab />}
       </main>
     </div>
   )

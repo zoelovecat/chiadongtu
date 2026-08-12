@@ -628,3 +628,107 @@ code {
   margin: 1.25rem 0;
   font-size: 0.875rem;
 }
+
+.particle-tab {
+  width: 100%;
+}
+
+.particle-subnav {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #e8e0d8;
+}
+
+.particle-subnav-link {
+  background: #fff;
+  border: 1px solid #ddd;
+  color: #555;
+  padding: 0.4rem 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+.particle-subnav-link:hover {
+  border-color: #c84b31;
+  color: #c84b31;
+}
+
+.particle-subnav-link.active {
+  background: #c84b31;
+  border-color: #c84b31;
+  color: #fff;
+}
+
+.particle-sentence-form {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid #e8e0d8;
+}
+
+.particle-inline-sentence {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.25rem 0.35rem;
+  font-size: 1.25rem;
+  line-height: 2;
+  margin-bottom: 1.25rem;
+}
+
+.particle-inline-chunk {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.particle-text {
+  white-space: pre-wrap;
+}
+
+.particle-blank-wrap {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+  vertical-align: middle;
+}
+
+.particle-blank-input {
+  width: 3.5rem;
+  border: 2px solid #c84b31;
+  border-radius: 6px;
+  padding: 0.35rem 0.5rem;
+  font-size: 1.1rem;
+  text-align: center;
+  font-family: inherit;
+}
+
+.particle-blank-input:focus {
+  outline: 2px solid #c84b3188;
+}
+
+.particle-blank-input:disabled {
+  background: #f9f9f9;
+}
+
+.particle-blank-correct {
+  border-color: #81c784;
+  background: #f5fff5;
+}
+
+.particle-blank-wrong {
+  border-color: #e57373;
+  background: #fff5f5;
+}
+
+.particle-blank-feedback {
+  font-size: 0.75rem;
+  color: #b00020;
+  max-width: 220px;
+  line-height: 1.45;
+}
